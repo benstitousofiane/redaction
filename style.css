@@ -1,0 +1,48 @@
+/* Font: Open Sans bold 700 : font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+body{
+    background-color: darkorange;
+    color: #111111;
+    font-family: 'Open Sans';
+}
+
+
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+footer textarea{
+    width: 50%;
+    background-color: #111111;
+    color: white;
+    font-size: 25px;
+}
+
+footer textarea.text{
+    color: darkorange;
+}
+
+footer textarea.math{
+    color: darkgreen;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#sheet{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    font-size: 30px;
+    margin-right: 7.5px;
+}
